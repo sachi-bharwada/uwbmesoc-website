@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Outfit', sans-serif; 
+    background-color: #FFFCF2; 
+    color: #333; 
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+    text-align: center;
+}
+
+.app-header {
+    width: 100%;
+    background-color: #FFFCF2;
+    padding: 20px 0;
+    display: flex; 
+    justify-content: flex-end; 
+    position: absolute; 
+    top: 0; 
+    right: 0;
+}
+
+.logo {
+    width: 10%; 
+    max-width: 50px;
+    padding: 10px;
+    left: 0;
+    position: absolute;
+}
+
+.nav-links {
+    font-size: 20px;
+    list-style: none; 
+    display: flex; 
+    padding-right: 20px;
+    margin: 0;
+
+}
+
+.nav-links li {
+    margin: 0 15px;
+    cursor: pointer; 
+    font-weight: bold;
+    transition: color 0.3s; 
+}
+
+.nav-links li:hover {
+    color: #ad83ed; 
+}
+
+.app-content {
+    padding: 10px;
+}
+
+.image-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.purpleSwirl {
+    width: 100%; 
+    max-width: 110px;
+    position: relative;
+    margin-right: 81%;
+    margin-bottom: -20px;
+}
+
+.star1 {
+    width: 55px;
+    margin-top: -60%;
+    margin-left: 75%;
+}
+
+.star2 {
+    width: 55px;
+    margin-top: -33%;
+    margin-right: 70%;
+}
+
+.asterisk {
+    width: 50px;
+    margin-top: -10%;
+    margin-bottom: 20px;
+
+}
+
+.letter {
+    display: inline-block; 
+    opacity: 0; 
+    transform: translateY(-20px);
+    animation: flyDown 0.5s forwards; 
+}
+
+@keyframes flyDown {
+    to {
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+
+.coming-soon {
+    font-size: 80px;
+    font-weight: 700;
+    color: #21183A;
+    margin-bottom: 40px; 
+    margin-top: 0;
+}
+
+.coming {
+    display: block; 
+    letter-spacing: 4px;
+}
+
+.soon {
+    display: block; 
+    letter-spacing: 3px;
+}
+
+.swirl {
+    width: 100%; 
+    max-width: 100px; 
+    height: auto; 
+    margin: 20px 0; 
+}
+
+.description {
+    font-size: 20px; 
+    color: #21183A; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    line-height: 40px;
+}
+
+.notify-button {
+    font-family: 'Outfit', sans-serif; 
+    font-weight: 300;
+    background-color: #21183A; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.2s; 
+    margin-top: 20px;
+}
+
+.notify-button:hover {
+    background-color: #ad83ed; 
+}
+
+.notify-form {
+    display: flex; 
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+.email-input {
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    margin-right: 10px; 
+    font-size: 16px; 
+    font-family: Outfit, sans-serif;
+}
+
+.submit-button {
+    background-color: #21183A; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-family: Outfit, sans-serif;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.submit-button:hover {
+    background-color: #ad83ed; 
+}
+
+.app-footer {
+    background-color: #FFFCF2; 
+    color: #21183A;
+    bottom: 0;
+    margin-top: 50px;
+    margin-bottom: -50px;
+    position: relative;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
