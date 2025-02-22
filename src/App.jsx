@@ -5,13 +5,13 @@ import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import Events from './pages/Events.jsx';
 import Contact from './pages/Contact.jsx';
-import Navbar from './Navbar.jsx';
+import Header from './Header.jsx';
 
 
 function App() {
   return (
     <Router>
-      <Navbar />
+      <Header />
       <Routes>
         <Route path="/" element={<ComingSoon />} />
         <Route path="/home" element={<Home />} />
@@ -20,9 +20,6 @@ function App() {
         <Route path="/events" element={<Events />} />
       </Routes>
     </Router>
-    // <div>
-    //   <ComingSoon />
-    // </div>
   );
 }
 

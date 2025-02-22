@@ -4,7 +4,6 @@ import star1 from './images/star1.png';
 import star2 from './images/star2.png';
 import asterisk from './images/asterisk.png';
 import swirl from './images/swirl.png';
-import bmelogo from './images/uwbmesoc-logo.png';
 
 function ComingSoon(){
     const [email, setEmail] = useState('');
@@ -47,19 +46,6 @@ function ComingSoon(){
 
     return (
         <div className="app">
-            <header className="app-header">
-                <div className="image-container">
-                    <img src={bmelogo} alt="UW BME Society Logo" className="logo" />
-                </div>
-                <nav>
-                    <ul className="nav-links">
-                        <li>Home</li>
-                        <li>Events</li>
-                        <li>About Us</li>
-                        <li>Contact Us</li>
-                    </ul>
-                </nav>
-            </header>
             <main className="app-content">
                 <div className="image-container">
                     <img src={swirl} alt="Purple Swirl" className="purpleSwirl" />
