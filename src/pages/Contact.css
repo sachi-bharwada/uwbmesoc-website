@@ -1,0 +1,75 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #fefaf0; /* Light cream background */
+  }
+  
+  .contact-container h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1e133d; /* Dark navy */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px; /* Ensures everything is centered */
+    gap: 15px;
+  }
+  
+  .name-fields {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 15px;
+  }
+  
+  .name-fields input {
+    flex: 1;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #1e133d; /* Subtle border */
+    background-color: #EEE5E6; /* Light purple-gray */
+    font-size: 1rem;
+    font-family: inherit;
+    box-sizing: border-box; /* Ensures padding doesn’t affect width */
+  }
+  
+  input::placeholder,
+  textarea::placeholder {
+    color: #888; /* Softer placeholder */
+  }
+  
+  textarea {
+    height: 120px;
+    resize: none;
+  }
+  
+  button {
+    width: 100%;
+    background-color: #1e133d; /* Dark navy */
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #140c2e; /* Slightly darker navy */
+  }
+  
