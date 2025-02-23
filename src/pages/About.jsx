@@ -7,7 +7,7 @@ function About() {
       <h1 className="about-title">About Us</h1>
       <p className="about-intro">
         We connect students, faculty, researchers, and industry experts in Biomedical Engineering,
-        to educate and connect <span className="highlighted-word-intro">passionate</span> minds.
+        to educate and unite <span className="highlighted-word-intro">passionate</span> minds.
       </p>
 
       {/* Our Mission */}
