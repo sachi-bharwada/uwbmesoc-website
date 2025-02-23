@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+.about-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    color: #21183A;     
+    font-family: 'Outfit'; 
+}
+  
+.about-title {
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+
+.about-intro {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 5rem;
+}
+
+.highlighted-word-intro {
+    color: #7D599E; 
+}
+
+.section-heading1 {
+    font-size: 1.8rem;
+    color: #20193d;
+    margin-bottom: 2rem;
+}
+
+.section-heading2 {
+    font-size: 1.8rem;
+    color: #20193d;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+
+.layered-card {
+    position: relative;
+    background-color: #423565; 
+    color: #fff;              
+    padding: 1.5rem 2rem;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 3rem;
+}
+  
+.layered-card::before {
+    content: "";
+    position: absolute;
+    top: 10px;  
+    left: 10px; 
+    width: 100%;
+    height: 100%;
+    background-color: #21183A; 
+    border-radius: 8px;
+    z-index: -1; 
+}
+  
+.layered-card p {
+    margin: 0 0 1.2rem 0;
+    line-height: 1.8;
+}
+
+.highlighted-word-values {
+    color: #F3CC59; 
+}
+
+.team-title {
+    font-size: 3rem;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
