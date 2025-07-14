@@ -1,16 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 .contact-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 40px;
-    background-color: #fefaf0; /* Light cream background */
+    background-color: #fefaf0; 
+    font-family: 'Outfit';
   }
   
   .contact-container h2 {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #1e133d; /* Dark navy */
+    color: #1e133d; 
     margin-bottom: 20px;
     text-align: center;
   }
@@ -20,7 +23,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 600px; /* Ensures everything is centered */
+    max-width: 600px; 
     gap: 15px;
   }
   
@@ -67,6 +70,7 @@
     font-size: 1rem;
     cursor: pointer;
     transition: 0.3s;
+    font-family: 'Outfit';
   }
   
   button:hover {

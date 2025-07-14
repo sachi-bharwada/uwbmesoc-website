@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 .about-container {
     max-width: 900px;
     margin: 0 auto;
@@ -71,4 +72,62 @@
     font-size: 3rem;
     margin-top: 8rem;
     margin-bottom: 2rem;
+}
+
+/* Meet the Team heading & intro text */
+.team-text {
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #20193d;
+  }
+  
+.highlighted-word {
+  font-weight: bold;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.team-card {
+  text-align: left;
+}
+
+.photo-frame {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-color: #c4c4c4;
+  border: 5px solid #20193d;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.team-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.team-photo.zoom-adjust {
+  object-position: top center;
+  transform: scale(1.0);
+}
+
+.team-name {
+  margin-top: 0.5rem;
+  margin-bottom: 0rem;
+  font-weight: 500;
+  color: #20193d;
+}
+
+.team-role {
+  margin-top: 0.2rem;
+  font-weight: bold;
+  color: #20193d;
+  font-size: 0.95rem;
 }
