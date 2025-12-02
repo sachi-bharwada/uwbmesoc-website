@@ -1,48 +1,57 @@
 import React from 'react';
 import './About.css';
-import Aric from '../images/team/aric.jpg';
-import Bhavneet from '../images/team/bhavneet.jpg';
-import blank from '../images/team/blank.png';
-import Chantelle from '../images/team/chantelle.jpg';
-import Chelsea from '../images/team/chelsea.jpeg';
-import Farida from '../images/team/farida.jpeg';
-import Harleen from '../images/team/harleen.jpg';
-import Jenna from '../images/team/jenna.jpeg';
-import Jeeda from '../images/team/jeeda.jpg';
-import Joanna from '../images/team/joanna.jpeg';
-import Jonathan from '../images/team/jonathan.jpeg';
-import Maathumai from '../images/team/maathumai.jpeg';
-import Marica from '../images/team/marica.jpg';
-import Megheti from '../images/team/megheti.jpg';
-import Myesha from '../images/team/myesha.jpeg';
-import Sachi from '../images/team/sachi.jpg';
-import Sargun from '../images/team/sargun.jpg';
-import Trisha from '../images/team/trisha.jpeg';
-import Wania from '../images/team/wania.jpeg';
-
+import Harleen from '../images/team_2025/harleen.jpg';
+import Jeeda from '../images/team_2025/jeeda.jpg';
+import Bhavneet from '../images/team_2025/bhavneet.jpg';
+import blank from '../images/team_2025/blank.png';
+import Dola from '../images/team_2025/dola.jpeg';
+import Farida from '../images/team_2025/farida.jpeg';
+import Sachi from '../images/team_2025/sachi.jpg';
+import Maathumai from '../images/team_2025/maathumai.jpeg';
+import Aric from '../images/team_2025/aric.jpg';
+import Myesha from '../images/team_2025/myesha.jpeg';
+import Megheti from '../images/team_2025/megheti.jpg';
+import Wania from '../images/team_2025/wania.jpeg';
+import Marica from '../images/team_2025/marica.jpg';
+import Trisha from '../images/team_2025/trisha.jpeg';
+import Jenna from '../images/team_2025/jenna.jpeg';
+import Kiriya from '../images/team_2025/kiriya.jpg';
+import Jeffrey from '../images/team_2025/jeffrey.jpg';
+import Natasha from '../images/team_2025/natasha.jpeg';
+import Hailey from '../images/team_2025/hailey.jpeg';
+import Jonathan from '../images/team_2025/jonathan.jpeg';
 
 const teamMembers = [
-  { name: 'Harleen Khangura', year: '3A', role: 'Co-President', image: Harleen },
-  { name: 'Jeeda Sabri', year: '3A', role: 'Co-President', image: Jeeda },
-  { name: 'Bhavneet Bola', year: '3A', role: 'Co-President', image: Bhavneet },
-  { name: 'Aethar Marhon', year: '3A', role: 'Design Director', image: blank },
-  { name: 'Joanna Peng', year: '1B', role: 'Design Director', image: Joanna },
-  { name: 'Farida Abdelmalek', year: '3A', role: 'Finance Director', image: Farida },
-  { name: 'Sachi Bharwada', year: '3A', role: 'Website Director', image: Sachi },
-  { name: 'Maathumai Prabhakaran', year: '3A', role: 'Website Director', image: Maathumai },
-  { name: 'Aric Quan', year: '3A', role: 'Newsletter Director', image: Aric },
-  { name: 'Chantelle Ng', year: '4B', role: 'Outreach Director', image: Chantelle },
-  { name: 'Megheti Bekmezian', year: '3A', role: 'Outreach Director', image: Megheti },
-  { name: 'Myesha Zaman', year: '2B', role: 'Communications Director', image: Myesha },
-  { name: 'Hailey Yena Kim', year: '3B', role: 'Events Director', image: blank },
-  { name: 'Jonathan Wang', year: '1B', role: 'Events Director', image: Jonathan, imageClass: 'zoom-adjust' },
-  { name: 'Sargun Sidhu', year: '1B', role: 'Events Director', image: Sargun },
-  { name: 'Wania Noor', year: '1B', role: 'First-Year Representative', image: Wania },
-  { name: 'Chelsea Kwon', year: '1B', role: 'First-Year Representative', image: Chelsea },
-  { name: 'Marica Smith', year: '3A', role: 'Marketing Director', image: Marica, imageClass: 'zoom-adjust' },
-  { name: 'Trisha Shankara Subramanian', year: '2B', role: 'Marketing Director', image: Trisha },
-  { name: 'Jenna Smith', year: '1B', role: 'Marketing Director', image: Jenna },
+  // Co-Presidents
+  {name:'Harleen Khangura', year:'3B', role:'Co-President', image:Harleen},
+  {name:'Jeeda Sabri', year:'3B', role:'Co-President', image:Jeeda},
+  {name:'Bhavneet Bola', year:'3B', role:'Co-President', image:Bhavneet},
+  // Graphics Directors
+  {name:'Deepta Yelamanchi', year:'1A', role:'Graphics Director', image:blank},
+  {name:'Dola Anantachina', year:'1A', role:'Graphics Director', image:Dola},
+  // Finance
+  {name:'Farida Abdelmalek', year:'3B', role:'Finance Director', image:Farida},
+  // Website Directors
+  {name:'Sachi Bharwada', year:'3B', role:'Website Director', image:Sachi},
+  {name:'Maathumai Prabhakaran', year:'3B', role:'Website Director', image:Maathumai},
+  // Newsletter
+  {name:'Aric Quan', year:'3B', role:'Newsletter Director', image:Aric},
+  // Outreach / Comms
+  {name:'Myesha Zaman', year:'2B', role:'Communications Director', image:Myesha},
+  {name:'Megheti Bekmezian', year:'3B', role:'Outreach Director', image:Megheti},
+  {name:'Wania Noor', year:'2A', role:'Outreach Director', image:Wania},
+  // Marketing Directors
+  {name:'Marica Smith', year:'3B', role:'Marketing Director', image:Marica, imageClass:'zoom-adjust'},
+  {name:'Trisha Shankara Subramanian', year:'3A', role:'Marketing Director', image:Trisha},
+  {name:'Jenna Smith', year:'1B', role:'Marketing Director', image:Jenna},
+  // Events Directors
+  {name:'Kiriya Awad', year:'3B', role:'Events Director', image:Kiriya},
+  {name:'Jeffrey Wang', year:'1B', role:'Events Director', image:Jeffrey},
+  {name:'Natasha Poon', year:'3A', role:'Events Director', image:Natasha},
+  {name:'Hailey Yena Kim', year:'4A', role:'Events Director', image:Hailey},
+  {name:'Jonathan Wang', year:'2A', role:'Events Director', image:Jonathan, imageClass:'zoom-adjust'},
 ];
+
 
 function About() {
   return (
