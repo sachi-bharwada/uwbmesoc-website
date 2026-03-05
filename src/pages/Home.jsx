@@ -69,7 +69,7 @@ function Home(){
           <img src={asterisk} alt="Yellow Asterisk" className="asterisk" />
         </div>
         <p className="description">
-          Exciting things are on the way! 🚀 We're working hard behind the scenes to bring you something amazing. Stay tuned for updates and be the first to know when we go live!
+          Exciting things are on the way! 🚀 We're working hard behind the scenes to bring you something amazing. Tap Notify Me to be the first to hear about upcoming events and updates!
         </p>
         {!showInput ? (
           <button className="notify-button" onClick={handleNotifyClick}>Notify me!</button>
@@ -89,7 +89,7 @@ function Home(){
         {submitted && <p>Thank you for signing up!</p>}
       </main>
       <footer className="app-footer">
-        <p>&copy; 2025: UW BME SOCIETY</p>
+        <p>&copy; 2026: UW BME SOCIETY</p>
       </footer>
     </div>
   );
