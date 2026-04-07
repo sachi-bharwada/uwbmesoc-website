@@ -24,8 +24,8 @@ body {
     width: 100%; 
     max-width: 110px;
     position: relative;
-    margin-right: 81%;
-    margin-bottom: -20px;
+    margin-right: 85%;
+    margin-bottom: -10px;
 }
 
 .star1 {
@@ -40,9 +40,14 @@ body {
     margin-right: 70%;
 }
 
+.image-container {
+    position: relative;
+}
+
 .asterisk {
     width: 50px;
-    margin-top: -10%;
+    position: absolute;
+    margin-top: -55%;
     margin-bottom: 20px;
 
 }
