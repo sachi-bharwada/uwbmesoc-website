@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.events-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    color: #21183A;
+    font-family: 'Outfit';
+}
+
+.events-title {
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+    color: #21183A;
+}
+
+.events-blurb {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    max-width: 700px;
+    color: #21183A;
+    background-color: #f4efe2;
+    border-left: 6px solid #7D599E;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
